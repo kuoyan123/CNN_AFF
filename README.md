@@ -1,3 +1,23 @@
+# Project Name: CNN_AFF
+## Project Overview
+This project is a Python-based deep learning project, primarily focusing on the application of Convolutional Neural Networks (CNNs) in one-dimensional signal processing.
+The aim of this project is to analyze and process the data of the elevator traction system through a deep learning model, so as to monitor the operating status of the equipment and diagnose faults.
+## Project Structure
+20240515 Elevator Data Collection: This file contains the originally collected data (the specific description of the alignment is provided in Collection Method.jpg).
+dataset: It includes the test and training samples sliced from the original data.
+model: This is the model folder, which contains CNN_1D and CNN_AFF.
+result: This is the folder for storing results.
+main.py: This is the entry function file.
+## Key Instructions
+The following command can set the computer to run in single-core and single-thread mode:
+```python
+import os
+# os.environ['OMP_NUM_THREADS'] = '1'
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+```
+Use the Anaconda tool to install the relevant dependencies by yourself.
+
+
 # 项目名称
 
 ## 项目概述
