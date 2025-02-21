@@ -19,7 +19,7 @@ from torch.optim.lr_scheduler import StepLR
 parser = argparse.ArgumentParser(description='PyTorch PN_Data Training')
 parser.add_argument('--data', metavar='DIR',default=r'.\dataset',help='path to dataset')
 parser.add_argument('-j', '--workers', default=2, type=int, metavar='N',help='number of data loading workers (default: 8)')
-parser.add_argument('--epochs', default=50, type=int, metavar='N',help='number of total epochs to run')
+parser.add_argument('--epochs', default=500, type=int, metavar='N',help='number of total epochs to run')
 parser.add_argument('--start-epoch', default=0, type=int, metavar='N',help='manual epoch number (useful on restarts)')
 parser.add_argument('-b', '--batch-size', default=128, type=int,metavar='N',help='mini-batch size (default: 32)')
 parser.add_argument('--lr', '--learning-rate', default=0.0001, type=float,metavar='LR', help='initial (base) learning rate', dest='lr')
